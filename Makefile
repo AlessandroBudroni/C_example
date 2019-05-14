@@ -13,17 +13,17 @@ IDIR = -I /usr/include -I /usr/local/include/ -I ./$(INCLUDE_dir)
 LDIR = -L /usr/lib/ -L /usr/local/lib/ -L ./$(OBJ_dir) 
 LIBS= -lm
 
-# Compile
 # headers
 _HEADER_files = config.h  utils.h
 HEADER_files = $(patsubst %,$(INCLUDE_dir)/%,$(_HEADER_files))
-# source
+# source and objects
 _SRC_files =  utils.c
 SRC_files = $(patsubst %,$(SRC_dir)/%,$(_SRC_files))
 OBJ_files = $(patsubst %.c,$(OBJ_dir)/%.o,$(_SRC_files))
 
 all: $(OBJ_dir) main
 
+# create build directory
 $(OBJ_dir):
 	$(MD) $@
 
