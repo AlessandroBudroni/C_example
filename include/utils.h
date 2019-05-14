@@ -1,3 +1,10 @@
+/**
+	utils.h
+	
+	Authors:
+		Alessandro Budroni, May 2019
+*/
+
 #ifndef UTILS_H
 #define UTILS_H
 

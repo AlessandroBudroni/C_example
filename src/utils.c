@@ -1,3 +1,9 @@
+/**
+	utils.h
+	
+	Authors:
+		Alessandro Budroni, May 2019
+*/
 
 #include "utils.h"
 

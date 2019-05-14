@@ -3,7 +3,7 @@
 	This is an example
 
 	Authors:
-		- Alessandro Budroni
+		- Alessandro Budroni, May 2019
 */
 
 #include "utils.h"

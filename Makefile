@@ -1,4 +1,6 @@
 # Makefile example
+# Authors:
+#	Alessandro Budroni, May 2019
 
 # directories variables
 OBJ_dir=build
